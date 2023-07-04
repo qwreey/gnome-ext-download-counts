@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@fastify/type-provider-typebox": "^3.2.0",
+    "@sinclair/typebox": "^0.29.3",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.19.2",
+    "satori": "^0.10.1",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "@types/follow-redirects": "^1.14.1",
+    "@types/node": "^20.3.3",
+    "tsc": "^2.0.4",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "check": "tsx src/index.ts --check"
+  },
+  "name": "gnome-ext-download-counts",
+  "version": "1.0.0",
+  "description": "Show gnome extension's download count and provide json api",
+  "main": "dist/index.js",
+  "repository": "https://github.com/qwreey75/gnome-ext-download-counts",
+  "author": "qwreey75 <qwreey75@gmail.com>",
+  "license": "MIT"
+}
